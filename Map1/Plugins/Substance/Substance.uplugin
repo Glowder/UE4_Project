@@ -1,0 +1,26 @@
+{
+	"FileVersion" : 3,
+	"Name" : "Substance",
+	"FriendlyName" : "Substance",
+	"Version" : 27,
+	"VersionName" : "4.7.0.5",
+	"CreatedBy" : "Allegorithmic Inc.",
+	"CreatedByURL" : "http://www.allegorithmic.com/",
+	"Description" : "Adds support for Substance (sbsar) textures",
+	"Category" : "Editor.Plugins",
+	"EnabledByDefault" : true,
+
+	"Modules" :
+	[
+		{
+			"Name" : "SubstanceCore",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault"
+		},
+		{
+			"Name" : "SubstanceEditor",
+			"Type" : "Editor",
+			"LoadingPhase" : "PostDefault"
+		}
+	]
+}
